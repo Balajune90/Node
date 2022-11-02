@@ -6,11 +6,11 @@ const requestListener = (req, res)=>{
   const responseData = {
       message:"Welcome to Node JS",
     articleData:{
-        articleName: "How to send JSON response from NodeJS",
+        articleName: "How to send JSON response from NodeJS in VS",
         category:"NodeJS",
         status: "published"
     },
-    endingMessage:"Visit Geeksforgeeks.org for more"    
+    endingMessage:"Contact Developer for more...!"    
   }
    
   const jsonContent = JSON.stringify(responseData);
